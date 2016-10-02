@@ -111,5 +111,5 @@ angular.module('gamseong', ['ionic'
       }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/feed/list');
+  $urlRouterProvider.otherwise('/app/feed/feed/list');
 });
